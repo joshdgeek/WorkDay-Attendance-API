@@ -23,11 +23,10 @@ const workerSchema = new mongoose.Schema({
 
 const workerModel = mongoose.model("WorkerSchema", workerSchema);
 
-//saves the model to MONGODB
+//saves the model to MONGODB when the server initializes
 const doc = new workerModel({
     fullname: "john doe",
-    position: "manager",
-    // checkInTimes: new Date().toLocaleDateString('en-CA')
+    position: "manager"
 });
 doc.save();
 
