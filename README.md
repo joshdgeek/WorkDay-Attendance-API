@@ -1,4 +1,4 @@
-# Worker Check-In Management API
+# WorkDay-Attendance-API
 
 ## Overview
 This project is a simple Node.js-based API for managing worker registration and daily check-ins. It uses **Express.js** for handling HTTP requests and **MongoDB** as the database, with **Mongoose** as the ODM (Object Data Modeling) library. The API provides endpoints for registering workers and recording their check-in times.
